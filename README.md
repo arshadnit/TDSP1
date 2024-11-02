@@ -1,7 +1,7 @@
 # TDSP1
 
-I scraped the data from GitHub's API using Python's requests library, targeting users in Singapore with over 100 followers, and collected their profile details along with their repository information.
+I scraped the data from GitHub's API using Python's requests library, targeting users in Singapore with over 100 followers, and collected their profile details along with their repository information. A personal access token was used to increase the request limit to 6000 per hour, allowing for extensive data collection without interruptions. Data was then stored in a CSV format, ensuring ease of access for further analysis.
 
-I found that hireable users tend to share their email addresses more often than non-hireable users, which highlights the importance of visibility when job-seeking.
+The analysis revealed key trends; hireable users were significantly more likely to make their email addresses public, perhaps because they believe that it can enhance a developer's discoverability by potential employers. Profiles that displayed a filled bio, contact information and frequent activity had higher follower counts indicating that an engaged profile benefits include high visibility and networking potential. Also, Singapore-based developers seem to prefer Python and JavaScript over C and C++, with my infernece being that they tend to focus on machine learning and web development and its automation perhaps.
 
-I recommend developers to ensure their profiles are complete, especially including email addresses, as it may enhance their networking opportunities and visibility to potential employers.
+Developers are recommended to optimize their GitHub profiles by including decent amount of information, maintaining regular activity and curating detailed bios that highlight relevant skills. They improve both visibility and engagement with potential employers. Future expansions of this project could include comparisons with other regions to better understand how language and tech trends vary geographically.
